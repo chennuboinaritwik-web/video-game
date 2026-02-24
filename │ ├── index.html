@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Frontech Video Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎮 Frontech</h1>
+
+<div class="game-container fade-in">
+  <p>XP: <span id="xp">0</span></p>
+  <button onclick="gainXP()">Practice Coding</button>
+  <button onclick="levelUp()">Level Up</button>
+  <button onclick="miniGame()">Fight Bug</button>
+</div>
+
+<div class="leaderboard">
+  <h2>🏆 Leaderboard</h2>
+  <ul id="leaderboardList"></ul>
+</div>
+
+<audio id="clickSound" src="sounds/click.mp3"></audio>
+<audio id="levelSound" src="sounds/levelup.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
